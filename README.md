@@ -16,7 +16,7 @@
 <p>You can see a live demo of the portfolio website at the following URL:</p>
 
 <ul>
-  <li>https://saurabh-srivastava.vercel.app/</li>
+<!--   <li>https://saurabh-srivastava.vercel.app/</li> -->
 </ul>
 
 <h2>Installation</h2>
