@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME2 from "../../assests/profile picture_.jpg";
+import ME2 from "../../assests/picashish.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";

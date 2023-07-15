@@ -20,11 +20,11 @@ const Contact = () => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_5n0id7q', 'template_10zrank', form.current, 'X8vBQREjKN8DznUZZ')
+      emailjs.sendForm('service_tpwucw2', 'template_297nl5s', form.current, 'UwH0nAGt3kDl5pg2V')
        e.target.reset()
     };
 
-
+    
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
