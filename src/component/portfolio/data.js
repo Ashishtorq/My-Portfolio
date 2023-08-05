@@ -2,7 +2,7 @@
 import IMG1 from '../../assests/portfolio1__.jpg';
 import IMG2 from '../../assests/portfolio2_.jpg';
 import IMG3 from '../../assests/portfolio3_.jpg';
-import IMG4 from '../../assests/portfolio4.jpg';
+import IMG4 from '../../assests/rastaurant.jpg';
 import IMG5 from '../../assests/portfolio5.jpeg';
 import IMG6 from '../../assests/portfolio6.jpg';
 
@@ -31,11 +31,11 @@ export const data= [
     demo: "https://weather-wise-ashish.vercel.app/",
     },
     {
-    // id: 4,
-    // title: "Salaah.org.in",
-    // img: IMG4,
-    // Github: "https://salaah.org.in",
-    // demo: "https://salaah.org.in",
+    id: 4,
+    title: "Restaurant Web-App",
+    img: IMG4,
+    Github: "https://github.com/Ashishtorq/Food-For-Foodies/tree/master",
+    demo: "https://food-for-foodie.netlify.app/",
     },
     {
     id: 4,
@@ -44,6 +44,13 @@ export const data= [
     Github: "https://github.com/Ashishtorq/FitFusion",
     demo: "https://wondrous-profiterole-ec81d2.netlify.app/",
     },
+    // {
+    //   id: 4,
+    //   title: "Fit-Fusion (Gym Website)",
+    //   img: IMG5,
+    //   Github: "https://github.com/Ashishtorq/FitFusion",
+    //   demo: "https://wondrous-profiterole-ec81d2.netlify.app/",
+    //   },
    
     
   ]
