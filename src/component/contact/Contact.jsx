@@ -26,36 +26,50 @@ const Contact = () => {
 
     
   return (
-    <section id='contact'>
+    <section id="contact">
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
 
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <MdOutlineEmail className='contact__option-icon' />
+            <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5 style={{fontSize:'0.8rem'}}>ashishtorq20@gmail.com</h5>
+            <h5 style={{ fontSize: "0.8rem" }}>ashishtorq20@gmail.com</h5>
             <a href="mailto:saurabhofficial203@gmail.com">Send a Message</a>
-          </article>          
+          </article>
           <article className="contact__option">
-            <SiBuymeacoffee className='contact__option-icon' />
+            <SiBuymeacoffee className="contact__option-icon" />
             <h4>Buy me a Coffee</h4>
-            <h5 style={{fontSize:'0.8rem'}}>Support</h5>
+            <h5 style={{ fontSize: "0.8rem" }}>Support</h5>
             <a href="https://bmc.link/ashishtorqz">Let's Go</a>
-          </article>          
+          </article>
         </div>
 
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Your Full Name' required />
-          <input type="email" name='email' placeholder='Your Email' required />
-          <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
-          <button type='submit' className='btn btn-primary'>Send Message</button>
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Full Name"
+            required
+          />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            rows="7"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit" className="btn btn-primary">
+            Send Message
+          </button>
         </form>
-
+        <div id="scrollup">
+          <a href=".container header__container">Scroll Up</a>
+        </div>
       </div>
     </section>
-  )
+  );
 }
 
 export default Contact
