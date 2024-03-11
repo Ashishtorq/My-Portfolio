@@ -4,7 +4,7 @@ import IMG2 from '../../assests/portfolio2_.jpg';
 import IMG3 from '../../assests/portfolio3_.jpg';
 import IMG4 from '../../assests/rastaurant.jpg';
 import IMG5 from '../../assests/portfolio5.jpeg';
-import IMG6 from '../../assests/portfolio6.jpg';
+
 
 
 
